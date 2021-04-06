@@ -1,0 +1,26 @@
+{
+    "name":"skrip42/twig-postprocessor-bundle",
+    "type":"symfony-bundle",
+    "description":"Add postprocessor to twig",
+    "homepage":"https://github.com/skrip42/TwigPostprocessorBundle",
+    "version":"v1.0.0",
+    "license":"MIT",
+    "minimum-stability":"dev",
+    "require":{
+        "php":"^7.1",
+        "symfony/dependency-injection": "^4.1|^5.0",
+        "ocramius/proxy-manager": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "skrip42",
+            "email": "skrip42@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skrip42\\Bundle\\TwigPostprocessorBundle\\":""
+        }
+    }
+}
+
