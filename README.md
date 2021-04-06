@@ -6,7 +6,7 @@ symphony bundle that adds post-processing functionality to your twig
 composer require Skrip42/twig-postprocessor-bundle
 ```
 
-## usabe
+## usage
 - create you own postprocessor that implements Skrip42\Bundle\TwigPostprocessorBundle\PostprocessorInterface
 ```php
 namespace App\Twig;
